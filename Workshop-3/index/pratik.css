@@ -1,0 +1,91 @@
+
+body{
+    background: #343F4F
+}
+ol{
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+#footer{
+    border: 1px solid #000;
+    font-size: 14px;
+}
+.contain{
+    margin: 0 left;
+    width: 50%;
+    padding: 50px;
+    color: cadetblue;
+    font-size: 14px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* #panthi{
+    font-si
+} */
+input [type="text"]{
+    font-size: 16px;
+    line-height: 1.4;
+    color: antiquewhite;
+}
+#ppp{
+    float: right;
+    border-radius: 7px;
+}
+#d-block{
+    display: block;
+}
+#herald{
+    width: 32%;
+    float: right;
+    border-radius:23px;
+}
+#button{
+    border-radius: 7px;
+}
+span{
+    color: red;
+}
+@media only screen and (max-width: 720px) {
+
+    body {
+    
+    background-color: red;
+    
+    }
+    
+    }
+    @media screen and (min-width: 560px){
+
+        .body{
+        
+       background-color: #343F4F;
+        }
+    }
+    nav ul li{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline-block;
+        padding:8px 16px ;
+        /* background-color: #f1f1f1;; */
+    }
+    nav ul li a{
+        color: white;
+        font-weight:Bold;
+    }
+    nav ul li a:hover{
+        color:#ea1538;
+        transition: .3s;
+    }
+    #search{
+        padding-left: 50px;
+    }
+   /* nav ul li a{
+        display:block;
+        width:60px;
+        padding: 8px 16px;
+        display: inline-block;
+    }
+    nav ul li a:hover{
+        color:red;
+        transition: .3s;
+    } */
